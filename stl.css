@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+header nav ul li:hover {
+    background-color: #ffcc00;
+}
+
+header div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+
+header div button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.login-btn {
+    background-color: #ffcc00;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.register-btn {
+    background-color: #ffcc00;
+    /* Blue */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.banner {
+    background-image: url("forum.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.welcome h1 {
+    font-size: 3em;
+    /* Makes the text bigger */
+    font-weight: bold;
+    /* Makes the text bold */
+    -webkit-text-fill-color: #ffcc00;
+    /* Changes the text color */
+    padding: 10px;
+    /* Adds some space around the text inside the border */
+}
+
+.welcome p {
+    font-size: 1.5em;
+    /* Makes the text bigger */
+    font-weight: bold;
+    /* Makes the text bold */
+    padding: 10px;
+    /* Adds some space around the text inside the border */
+    -webkit-text-fill-color: rgb(107, 107, 107);
+    /* Changes the text color */
+}
+
+section button {
+    background-color: #ffcc00;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
